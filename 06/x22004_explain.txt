@@ -1,0 +1,15 @@
+06_issue_submit_x22004.php フォームを記入し、06_issue_confirm_x22004.phpへデータを送る
+
+06_issue_confirm_x22004.php submitから送られてきたPOST変数をセッション変数に格納し、戻るボタンが押された場合、保存したサムネイルと画像を削除する
+
+06_issue_upload_x22004.php csvファイルにconfirmから渡されたセッション変数のデータを書き込む
+
+06_issue_view_x22004.php csvファイルに書き込まれたテキストを読み取り、「動物名」「コメント」「画像ファイル」を表示する
+
+!!加点!!
+加点対象である画像の削除をPOST変数とunlink関数を用いて実装しました。
+関連ファイル
+06_issue_confirm_x22004.php
+06_issue_submit_x22004.php
+
+参考URL : https://codelikes.com/php-file-remove/#toc1

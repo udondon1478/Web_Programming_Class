@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+    background:#282A33;
+    padding: 6rem;
+    border-radius: 2rem;
+    color: white;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  background: none;
+}
+.form-control:active,
+.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000;
+}

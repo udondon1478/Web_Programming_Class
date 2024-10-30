@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>送信フォーム</title>
+</head>
+<body>
+    <!-- フォームの開始 -->
+    <form action="4_evaluation.php" method="POST" action="4_evaluation.php">
+        テキストボックス: <input type = "text" name = "text1" placeholder="入力してください">
+        <br>
+        <input type="checkbox" name="check1">チェック
+        <br>
+        <input type="radio" name="radio1" value="radio1">ラジオ1
+        <input type="radio" name="radio2" value="radio2">ラジオ2
+        <select name="select[]" size="4" multiple>
+            <option value="select1">選択リスト1</option>
+            <option value="select2">選択リスト2</option>
+            <option value="select3">選択リスト3</option>
+            <option value="select4">選択リスト4</option>
+        </select>
+        <br>
+        <input type="number" name="number" required><br>
+        <input type="date" name="date"><br>
+        <input type="hidden" name="hidden" value="隠しデータ">
+        <input type="submit" value="送信">
+        <input type="reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./03_issue2_input_x22004.css">
+</head>
+
+<body>
+    <form-container>
+        <form action="03_issue2_result_x22004.php" method="POST">
+            名前: <input type="text" class="form-control" name="name" placeholder="お名前" required><br>
+            年齢: <input type="number" class="form-control" name="age" placeholder="齢" required><br>
+            メールアドレス <input type="email" class="form-control" name="email" placeholder="メールアドレス" required><br>
+            お知らせメールを受け取りますか？ <input type="checkbox" class="form-control" name="check"><br>
+            件名: <input type="text" class="form-control" name="subject" placeholder="件名" required><br>
+            メッセージ: <input type="text" class="form-control" name="message" placeholder="メッセージ" required><br>
+            <input type="hidden" name="transaction_ID" value="12345ABC">
+            <input type="submit" value="送信">
+        </form>
+    </form-container>
+       
+</body>
+
+</html>

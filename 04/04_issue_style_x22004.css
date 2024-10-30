@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*カスタムプロパティ*/
+:root{
+    --main-text-color: #d8d8d8;
+    --main-color: #030303;
+    --sub-color: #1A1A1B;
+    --accent-color: #343536;
+}
+
+body {
+    color: var(--main-text-color);
+}
+
+.item-container{
+    background-color: var(--main-color);
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--sub-color);
+    gap: 2rem;
+}
+
+.title img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sub-color);
+    border: var(--accent-color) solid 0.1rem;
+}
+
+textarea {
+    background-color: var(--sub-color);
+    border: none;
+    color: var(--main-text-color);
+}
+
+/*textareaがアクティブの場合、.form-containerのボーダーを白にする*/
+textarea:focus{
+    outline: none;
+    border: var(--main-text-color) solid 0.1rem;
+}
+
+
+.threads {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.thread {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: var(--sub-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}

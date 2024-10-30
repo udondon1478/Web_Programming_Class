@@ -1,0 +1,36 @@
+/*リセットcss*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*カスタムプロパティ*/
+:root{
+    --main-text-color: #d8d8d8;
+    --main-color: #030303;
+    --sub-color: #1A1A1B;
+    --accent-color: #343536;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container{
+    background-color: var(--main-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

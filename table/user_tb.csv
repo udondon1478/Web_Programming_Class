@@ -1,0 +1,4 @@
+"id","email","password","username","is_admin","created_at","updated_at"
+"1","x22004xx@aitech.ac.jp","$2y$10$kNoFhiHi7VHWIrLb69vSOecf52lS8KmA/IJV6pECzKZ46NrcyghXe","あん","1","2024-02-04 22:22:57","2024-02-04 22:22:57"
+"2","x22999xx@aitech.ac.jp","$2y$10$C0.3vVXhASXdfD1eQ1nYIeAi3gg.YAaGr9cpCv2r.brXXjHgYF/OS","ゆう","0","2024-02-04 22:22:57","2024-02-04 22:22:57"
+"3","udonclub@gmail.com","$2y$10$vGg9lilIXVJTJGj/svbW5ezjVz8uPIktNKxZa/OFJsVzecexVqsQW","udonclub","0","2024-02-04 22:27:14","2024-02-04 22:27:14"
